@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  overflow-x: hidden;
+}
+
+.stylovy {
+  scroll-snap-type: x mandatory;
+}
+
+.scroled {
+  background-color: rgb(249, 249, 249);
+}
+
+.cena {
+  -webkit-box-shadow: 7px 7px 12px -3px rgba(202,31,90,1.1);
+  -moz-box-shadow: 7px 7px 12px -3px rgba(202,31,90,1.1);
+  box-shadow: 7px 7px 12px -3px rgba(202,31,90,1.1);
+  transition: all .3s;
+}
+
+.cena:hover {
+  -webkit-box-shadow: 7px 7px 12px -3px rgba(202,31,88,.2);
+  -moz-box-shadow: 7px 7px 12px -3px rgba(202,31,88,.2);
+  box-shadow: 7px 7px 12px -3px rgba(202,31,88,.2);
+  transform: translateX(5px);
+}
+
+.plejs::placeholder {
+  color: rgb(211, 211, 211);
+}
+
+.plejs {
+  color: white;
 }
