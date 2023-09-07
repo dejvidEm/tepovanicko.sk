@@ -40,3 +40,15 @@ html {
 .plejs {
   color: white;
 }
+
+.fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: 
+      url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1_31_JdL7gHl_BAEGiD5KwKGHNQkm9IvfA&usqp=CAU");
+    background-size: 100% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}

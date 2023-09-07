@@ -14,7 +14,7 @@ const Navbar = () => {
         <ul className='hidden md:flex'>
             <Link to="domov" smooth duration={500} className='px-4 cursor-pointer font-medium text-gray-800 hover:scale-105 hover:text-[#ca1f58] hover:font-bold duration-200'>Domov</Link>
             <Link to="onas" smooth duration={500} offset={-70} className='px-4 cursor-pointer font-medium text-gray-800 hover:scale-105 hover:text-[#ca1f58] hover:font-bold  duration-200'>O nás</Link>
-            <Link to="praca" smooth duration={500} offset={-70} className='px-4 cursor-pointer font-medium text-gray-800 hover:scale-105 hover:text-[#ca1f58] hover:font-bold  duration-200'>Naša práca</Link>
+            <Link to="praca" smooth duration={500} offset={10} className='px-4 cursor-pointer font-medium text-gray-800 hover:scale-105 hover:text-[#ca1f58] hover:font-bold  duration-200'>Naša práca</Link>
             <Link to="cennik" smooth duration={500} offset={-160} className='px-4 cursor-pointer font-medium text-gray-800 hover:scale-105 hover:text-[#ca1f58] hover:font-bold  duration-200'>Cenník</Link>
             <Link to="kontakt" smooth duration={500} className='px-4 cursor-pointer font-medium text-gray-800 hover:scale-105 hover:text-[#ca1f58] hover:font-bold  duration-200'>Kontakt</Link>
         </ul>

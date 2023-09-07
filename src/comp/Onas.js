@@ -5,16 +5,19 @@ import icon3 from "../img/icon3.png";
 import icon4 from "../img/icon4.png";
 
 const Onas = () => {
+  <script>
+  AOS.init();
+</script>
   return (
     <div name="onas" className='w-full h-auto'>
-      <div className='w-full flex justify-center items-center'>
+      <div className='w-full flex justify-center items-center mt-10'>
         <h1 className='text-4xl font-bold md:py-7 pt-8'>Niečo o Nás</h1>
       </div>
       <div className='w-full h-[85%] flex flex-col items-center lg:flex-row'>
         <div className='bg-white h-full md:w-6/12 flex justify-end items-center md:pr-10 py-10'>
-          <div className='bg-gray-500 w-[300px] h-[500px] rounded-lg'></div>
+          <div className='bg-gray-500 w-[300px] h-[500px] rounded-lg' data-aos="fade-right"></div>
         </div>
-        <div className='bg-white h-full w-10/12 flex justify-start items-center md:pl-10'>
+        <div className='bg-white h-full w-10/12 flex justify-start items-center md:pl-10' data-aos="fade-left">
           <div className='md:w-3/4 w-4/4 h-3/5'>
             <div className='w-full h-[20%] flex flex-col justify-center md:pl-3'>
               <h2 className='font-bol text-2xl'>Prečo si vybrať práve Nás?</h2>

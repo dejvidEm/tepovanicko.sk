@@ -9,8 +9,8 @@ const Home = () => {
       <img alt='/' src={pozadie} className='absolute w-screen h-screen top-0 left-0 -z-50 object-cover'></img>
       <div className='w-full h-[50vh] flex justify-center content-center pt-48'>
         <div className='flex w-auto h-auto flex-col justify-center text-center items-center'>
-          <h1 className='font-bold md:text-4xl text-3xl'>Tepovaničko</h1>
-          <h2 className='md:text-2xl text-lg text-[#94153f] mt-2 mb-5'>Čistý domov pre každého na dosah ruky</h2>
+          <h1 className='fancy font-bold md:text-6xl text-3xl'>Tepovaničko</h1>
+          <h2 className='md:text-2xl text-lg text-black mt-2 mb-5'>Čistý domov pre každého na dosah ruky</h2>
           <Link to="kontakt" smooth duration={1000} className="sm:w-[50%] w-[55%] rounded-md px-3.5 py-2 m-1 z-[0] overflow-hidden relative group cursor-pointer border-2 font-medium border-[#ca1f58]">
             <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#ca1f58] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
             <span class="relative text-[#ca1f58] md:text-sm text-base transition duration-300 group-hover:text-white ease">Kontaktuj Nás!</span>
