@@ -10,9 +10,8 @@ import photo7 from "../img/photos/photo7.jpg";
 const Praca = () => {
   return (
     <div className='w-full h-auto' id='praca'>
-      <div className='w-full flex justify-center items-center flex flex-col'>
+      <div className='w-full  flex justify-center items-center flex-col'>
         <h1 className='text-4xl font-bold mt-20 md:pt-10'>Naša práca</h1>
-        <p className='pt-5'>Naša práca na fotkách, zoznámte sa s tepovaciou firmou kde výsledky hovoria za Nás</p>
       </div>
         <div class="px-10 pb-6 mt-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
         <div class="container overflow-hidden">

@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
 
 * {
   font-family: 'Montserrat', sans-serif;
@@ -42,13 +43,8 @@ html {
 }
 
 .fancy {
-  @supports (background-clip: text) or (-webkit-background-clip: text) {
-    background-image: 
-      url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1_31_JdL7gHl_BAEGiD5KwKGHNQkm9IvfA&usqp=CAU");
-    background-size: 100% auto;
-    background-position: center;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+  background: #610F2A;
+  background: linear-gradient(to right, #610F2A 0%, #F02568 89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
