@@ -7,7 +7,7 @@ const Kontakt = () => {
       <div className='w-full flex justify-center items-center'>
         <h1 className='text-4xl font-bold md:py-7 py-3'>Kontaktujte Nás</h1>
       </div>
-        <div className='w-full h-[20%] mt-5 flex flex-col items-center'>
+        <div className='w-full h-[30%] md:h-[20%] mt-5 flex flex-col items-center'>
           <div className='flex flex-row text-blue-600 font-bold px-14 py-6 rounded-[100px] border-2 border-black'>
             <img alt='/' src={fb_chat} className='md:w-16 md:h-16 w-10 h-10'></img>
             <h1 className='m-auto md:text-lg text-sm md:text-md ml-10'>Spojte sa s Nami pomocou Messenger-u</h1>
@@ -17,7 +17,7 @@ const Kontakt = () => {
           <p className='text-md md:text-lg w-[90%] text-center'>Alebo vyplňte formulár nižšie a my Vám radi odpovieme</p>
           <form className='flex flex-col md:w-[50%] sm:w-[70%] w-[85%]'>
             <h2 className='font-bold text-xl mb-2 mt-5 ml-2'>Meno a priezvisko</h2>
-            <input type='text' placeholder='Janko Mrkvička' className='plejs p-3 rounded-lg bg-[#c46887]'></input>
+            <input type='text' placeholder='Ján Novotný' className='plejs p-3 rounded-lg bg-[#c46887]'></input>
             <h2 className='font-bold text-xl mb-2 mt-5 ml-2'>Email</h2>
             <input type='text' placeholder='janko1@gmail.com' className='plejs p-3 rounded-lg bg-[#c46887]'></input>
             <h2 className='font-bold text-xl mb-2 mt-5 ml-2'>Mobil</h2>

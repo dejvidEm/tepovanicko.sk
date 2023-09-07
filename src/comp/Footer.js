@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-full text-center'>
-        <p className='py-2 font-bold'>Tepovanicko © 2023 Všetky práva vyhradené</p>
+        <p className='py-2 text-sm md:text-md font-bold'>Tepovanicko © 2023 Všetky práva vyhradené</p>
       </div>
     </div>
   )

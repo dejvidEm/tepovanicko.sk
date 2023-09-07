@@ -14,9 +14,9 @@ const items = [
       </div>
       <div className='obsah'>
          <div className='px-6 md:px-12 pt-4 text-md'>" Firma Tepovacích Služieb bola neuveriteľne profesionálna a spoľahlivá. Ich pracovníci prišli včas a účinne vykonali tepovanie našej domácnosti. Ceny boli výhodné a výsledok bol úžasný. Odporúčame ich každému! "</div>
-         <div className='flex flex-row justify-between p-12'>
+         <div className='flex flex-row justify-between p-6 md:p-12'>
             <div className='flex flex-row text-[#ca1f58] '><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/></div>
-            <p className='datum'>pred 2 týždňami</p>
+            <p className='datum text-sm md:text-md'>pred 2 týždňami</p>
          </div>
       </div>
    </div>,
@@ -27,9 +27,9 @@ const items = [
       </div>
       <div className='obsah'>
          <div className='px-6 md:px-12 pt-4 text-md'>" S tepovaním od tejto firmy sme boli všeobecne spokojní. Ich pracovníci boli zdvorilí a výsledky boli viditeľné. Cena bola primeraná. Jedinou nevýhodou bola dlhšia doba čakania na termín."</div>
-         <div className='flex flex-row justify-between p-12'>
+         <div className='flex flex-row justify-between p-6 md:p-12'>
             <div className='flex flex-row text-[#ca1f58] '><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/></div>
-            <p className='datum'>pred 2 týždňami</p>
+            <p className='datum text-sm md:text-md'>pred 2 týždňami</p>
          </div>
       </div>
    </div>,
@@ -40,9 +40,9 @@ const items = [
       </div>
       <div className='obsah'>
          <div className='px-6 md:px-12 pt-4 text-md'>" Bohužiaľ, nemôžem úplne odporučiť túto tepovaciu firmu. Výsledky boli priemerné, a komunikácia a starostlivosť o detaily mala miestami problémy. Cena bola ale výborná, a preto musím povedať že som so službou spokojný. "</div>
-         <div className='flex flex-row justify-between p-12'>
+         <div className='flex flex-row justify-between p-6 md:p-12'>
             <div className='flex flex-row text-[#ca1f58] '><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/><AiFillStar size={22}/><AiOutlineStar size={22}/></div>
-            <p className='datum'>pred 2 týždňami</p>
+            <p className='datum text-sm md:text-md'>pred 2 týždňami</p>
          </div>
       </div>
    </div>,
